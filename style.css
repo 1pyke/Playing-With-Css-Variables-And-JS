@@ -3,23 +3,6 @@
     --spacing: 10px;
     --blur: 10px;
 }
-img{
-    padding: var(--spacing);
-    background-color: var(--base);
-    filter: blur(var(--blur));
-    width: 65%;
-    height: 530px;
-
-}
-.span1{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-.h1{
-    color: var(--base);
-    
-}
 body{
     align-items: center;
 }
@@ -33,15 +16,32 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
-.controls{
-    margin-bottom: 50px;
+input{
+    width: 100px;
 }
 a{
     color: var(--base);
     text-decoration: none;
+    
+}
+img{
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+    width: 65%;
+    height: 530px;
 
 }
-input{
-    width: 100px;
+.controls{
+    margin-bottom: 50px;
+}
+.span1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.h1{
+    color: var(--base);
+    
 }
 
